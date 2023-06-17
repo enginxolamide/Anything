@@ -1,0 +1,100 @@
+body {
+  background: #141519;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.ratingCard,
+.thankYouCard {
+  background-color: #1e242e;
+  padding: 20px;
+  border-radius: 30px;
+  width: 300px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.thankYouCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.logo {
+  background: #272e3f;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.heading {
+  font-size: 32px;
+  color: white;
+  margin-bottom: 2px;
+  margin-top: 4px;
+}
+
+.description {
+  color: #8e949e;
+  font-size: 14px;
+}
+
+.ratingContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.rating {
+  background: #272e3f;
+  border-radius: 100%;
+  padding: 10px;
+  color: white;
+  border: none;
+  width: 50px;
+  height: 50px;
+}
+
+.rating:hover {
+  background: #7d8796;
+}
+.rating:focus {
+  background: #fb7b19;
+}
+
+.submit {
+  margin-top: 10px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  background: #fb7b19;
+  width: 100%;
+  padding: 16px;
+  border-radius: 30px;
+}
+.submit:focus {
+  color: #fb7b19;
+  background: white;
+}
+
+.submit:disabled {
+  color: #8e949e;
+  background: #61666c;
+}
+
+.numSelected {
+  margin-top: 10px;
+  border: none;
+  width: fit-content;
+  color: #fb7b19;
+  background: #242c33;
+  padding: 8px 16px;
+  border-radius: 30px;
+}
